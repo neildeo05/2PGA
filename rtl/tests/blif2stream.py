@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 # TODO:
   # implement BLIFLatch
   # Fix unorthodox ordering issue
