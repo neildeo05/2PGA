@@ -1,0 +1,7 @@
+# Benchmark "andgate" written by ABC on Tue Aug 20 11:34:44 2024
+.model andgate
+.inputs a b c
+.outputs out
+.names a b c out
+000 0
+.end
