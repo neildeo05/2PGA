@@ -28,6 +28,7 @@ module LUT (
     end
   end
 
+  // Layer 2 Muxes
   always_comb begin
     if (~a & ~b) begin
       out = sel2[0];
@@ -38,7 +39,5 @@ module LUT (
     end else begin
       out = sel2[3];
     end
-  end
-  always_comb begin
   end
 endmodule
