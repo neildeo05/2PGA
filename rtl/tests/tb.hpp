@@ -35,6 +35,8 @@ struct OutputTx {
   bool y;
 };
 
+#define debug(...) if(DEBUG) printf(__VA_ARGS__);
+#define assertf(case, ...) assert(case); printf("\033[1;32mPASSED: \033[0m"); printf(__VA_ARGS__);
 
 
 InputTx* create_input_tx() {
@@ -57,8 +59,6 @@ InputTx* create_input_tx() {
   else return NULL;
 }
 
-#define debug(...) if(DEBUG) printf(__VA_ARGS__);
-#define TEST(case, string) assert(case); printf("\033[1;32mPASSED:\033[0m %s\n", string);
 
 struct Scoreboard {
   std::deque<InputTx*> inputs;
@@ -123,20 +123,20 @@ struct Scoreboard {
 
       if(bits_ocw[0]) {
         debug("X comes from the second CLB -> Output X = %d\n", lut_2_expected_out);
-        TEST(output_value->x == lut_2_expected_out, "X (2nd CLB) output is as expected");
+        assertf(output_value->x == lut_2_expected_out, "X (2nd CLB) output is as expected -> %d\n", output_value->x);
       }
       else {
         debug("X comes from the first CLB -> Output X = %d\n", lut_1_expected_out);
-        TEST(output_value->x == lut_1_expected_out, "X (1st CLB) output is as expected");
+        assertf(output_value->x == lut_1_expected_out, "X (1st CLB) output is as expected -> %d\n", output_value->x);
       }
 
       if(bits_ocw[1]) {
         debug("Y comes from the second CLB -> Output Y = %d\n", lut_2_expected_out);
-        TEST(output_value->y == lut_2_expected_out, "Y (2nd CLB) output is as expected");
+        assertf(output_value->y == lut_2_expected_out, "Y (2nd CLB) output is as expected -> %d\n", output_value->y);
       }
       else {
         debug("Y comes from the first CLB -> Output Y = %d\n", lut_1_expected_out);
-        TEST(output_value->y == lut_1_expected_out, "Y (1st CLB) output is as expected");
+        assertf(output_value->y == lut_1_expected_out, "Y (1st CLB) output is as expected -> %d\n", output_value->y);
       }
 
       printf("========== PACKET EVALUATION END  ==========\n");

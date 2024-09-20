@@ -1,76 +1,10 @@
 ========== PACKET PRINTOUT START ==========
-Input Configuration -> 110011
+Input Configuration -> 101101
 Lut Configuration -> 1101100011011000
 FF Configuration -> 101
 Output Configuration -> 01
-A -> 1
-B -> 1
-C -> 1
-D -> 1
-x -> 1
-y -> 1
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 110011
-Lut Configuration -> 1101100011011000
-FF Configuration -> 101
-Output Configuration -> 01
-A -> 1
-B -> 1
-C -> 1
-D -> 1
-x -> 1
-y -> 1
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 100111
-Lut Configuration -> 1101100011011000
-FF Configuration -> 000
-Output Configuration -> 11
 A -> 0
-B -> 1
-C -> 0
-D -> 1
-x -> 1
-y -> 1
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 100100
-Lut Configuration -> 1101100011011000
-FF Configuration -> 010
-Output Configuration -> 10
-A -> 0
-B -> 1
+B -> 0
 C -> 0
 D -> 0
 x -> 0
@@ -80,21 +14,43 @@ y -> 0
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
 ========== PACKET EVALUATION END  ==========
 
 
 
 ========== PACKET PRINTOUT START ==========
-Input Configuration -> 001100
+Input Configuration -> 000011
 Lut Configuration -> 1101100011011000
-FF Configuration -> 100
+FF Configuration -> 101
 Output Configuration -> 10
-A -> 1
-B -> 1
+A -> 0
+B -> 0
+C -> 0
+D -> 1
+x -> 0
+y -> 0
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 0
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 011010
+Lut Configuration -> 1101100011011000
+FF Configuration -> 000
+Output Configuration -> 01
+A -> 0
+B -> 0
 C -> 1
-D -> 0
+D -> 1
 x -> 1
 y -> 1
 ========== PACKET PRINTOUT  END  ==========
@@ -102,8 +58,30 @@ y -> 1
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 011010
+Lut Configuration -> 1101100011011000
+FF Configuration -> 000
+Output Configuration -> 01
+A -> 0
+B -> 0
+C -> 1
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
 ========== PACKET EVALUATION END  ==========
 
 
@@ -111,9 +89,97 @@ y -> 1
 ========== PACKET PRINTOUT START ==========
 Input Configuration -> 101101
 Lut Configuration -> 1101100011011000
-FF Configuration -> 111
+FF Configuration -> 001
 Output Configuration -> 01
 A -> 0
+B -> 1
+C -> 0
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 101101
+Lut Configuration -> 1101100011011000
+FF Configuration -> 001
+Output Configuration -> 01
+A -> 0
+B -> 1
+C -> 0
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 000001
+Lut Configuration -> 1101100011011000
+FF Configuration -> 110
+Output Configuration -> 10
+A -> 1
+B -> 1
+C -> 1
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 011001
+Lut Configuration -> 1101100011011000
+FF Configuration -> 101
+Output Configuration -> 01
+A -> 0
+B -> 0
+C -> 0
+D -> 0
+x -> 0
+y -> 0
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 101100
+Lut Configuration -> 1101100011011000
+FF Configuration -> 011
+Output Configuration -> 00
+A -> 1
 B -> 1
 C -> 1
 D -> 0
@@ -124,40 +190,62 @@ y -> 1
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
 ========== PACKET EVALUATION END  ==========
 
 
 
 ========== PACKET PRINTOUT START ==========
-Input Configuration -> 101110
+Input Configuration -> 101100
 Lut Configuration -> 1101100011011000
-FF Configuration -> 111
-Output Configuration -> 11
+FF Configuration -> 011
+Output Configuration -> 00
 A -> 1
-B -> 0
-C -> 0
+B -> 1
+C -> 1
 D -> 0
-x -> 0
-y -> 0
+x -> 1
+y -> 1
 ========== PACKET PRINTOUT  END  ==========
 
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
 ========== PACKET EVALUATION END  ==========
 
 
 
 ========== PACKET PRINTOUT START ==========
-Input Configuration -> 100110
+Input Configuration -> 101100
 Lut Configuration -> 1101100011011000
-FF Configuration -> 110
-Output Configuration -> 01
-A -> 0
+FF Configuration -> 011
+Output Configuration -> 00
+A -> 1
+B -> 1
+C -> 1
+D -> 0
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 100111
+Lut Configuration -> 1101100011011000
+FF Configuration -> 111
+Output Configuration -> 00
+A -> 1
 B -> 0
 C -> 1
 D -> 0
@@ -168,21 +256,21 @@ y -> 0
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
 ========== PACKET EVALUATION END  ==========
 
 
 
 ========== PACKET PRINTOUT START ==========
-Input Configuration -> 011110
+Input Configuration -> 100111
 Lut Configuration -> 1101100011011000
-FF Configuration -> 000
-Output Configuration -> 10
+FF Configuration -> 111
+Output Configuration -> 00
 A -> 1
 B -> 0
-C -> 0
-D -> 1
+C -> 1
+D -> 0
 x -> 0
 y -> 0
 ========== PACKET PRINTOUT  END  ==========
@@ -190,8 +278,74 @@ y -> 0
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 111011
+Lut Configuration -> 1101100011011000
+FF Configuration -> 101
+Output Configuration -> 10
+A -> 0
+B -> 0
+C -> 1
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 111011
+Lut Configuration -> 1101100011011000
+FF Configuration -> 101
+Output Configuration -> 10
+A -> 0
+B -> 0
+C -> 1
+D -> 1
+x -> 1
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 000011
+Lut Configuration -> 1101100011011000
+FF Configuration -> 011
+Output Configuration -> 00
+A -> 1
+B -> 0
+C -> 0
+D -> 0
+x -> 0
+y -> 0
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
 ========== PACKET EVALUATION END  ==========
 
 
@@ -199,209 +353,11 @@ y -> 0
 ========== PACKET PRINTOUT START ==========
 Input Configuration -> 101011
 Lut Configuration -> 1101100011011000
-FF Configuration -> 010
-Output Configuration -> 11
-A -> 0
-B -> 1
-C -> 1
-D -> 1
-x -> 1
-y -> 1
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 100011
-Lut Configuration -> 1101100011011000
-FF Configuration -> 100
-Output Configuration -> 01
-A -> 1
-B -> 0
-C -> 1
-D -> 1
-x -> 0
-y -> 1
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 000100
-Lut Configuration -> 1101100011011000
-FF Configuration -> 000
-Output Configuration -> 10
-A -> 0
-B -> 0
-C -> 0
-D -> 1
-x -> 0
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 000100
-Lut Configuration -> 1101100011011000
-FF Configuration -> 000
-Output Configuration -> 10
-A -> 0
-B -> 0
-C -> 0
-D -> 1
-x -> 0
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 010011
-Lut Configuration -> 1101100011011000
-FF Configuration -> 111
-Output Configuration -> 01
-A -> 1
-B -> 0
-C -> 0
-D -> 1
-x -> 1
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 110101
-Lut Configuration -> 1101100011011000
-FF Configuration -> 001
-Output Configuration -> 01
-A -> 0
-B -> 0
-C -> 1
-D -> 1
-x -> 1
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 101100
-Lut Configuration -> 1101100011011000
-FF Configuration -> 100
-Output Configuration -> 10
-A -> 1
-B -> 0
-C -> 1
-D -> 1
-x -> 0
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 101100
-Lut Configuration -> 1101100011011000
-FF Configuration -> 100
-Output Configuration -> 10
-A -> 1
-B -> 0
-C -> 1
-D -> 1
-x -> 0
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (2nd CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 111000
-Lut Configuration -> 1101100011011000
-FF Configuration -> 010
-Output Configuration -> 00
-A -> 1
-B -> 0
-C -> 1
-D -> 1
-x -> 0
-y -> 0
-========== PACKET PRINTOUT  END  ==========
-
-
-
-========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (1st CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
-========== PACKET EVALUATION END  ==========
-
-
-
-========== PACKET PRINTOUT START ==========
-Input Configuration -> 010110
-Lut Configuration -> 1101100011011000
-FF Configuration -> 000
+FF Configuration -> 110
 Output Configuration -> 01
 A -> 0
 B -> 1
-C -> 1
+C -> 0
 D -> 1
 x -> 1
 y -> 1
@@ -410,8 +366,52 @@ y -> 1
 
 
 ========== PACKET EVALUATION BEGIN  ==========
-[1;32mPASSED:[0m X (2nd CLB) output is as expected
-[1;32mPASSED:[0m Y (1st CLB) output is as expected
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 100111
+Lut Configuration -> 1101100011011000
+FF Configuration -> 101
+Output Configuration -> 10
+A -> 1
+B -> 0
+C -> 1
+D -> 0
+x -> 0
+y -> 1
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 1
+========== PACKET EVALUATION END  ==========
+
+
+
+========== PACKET PRINTOUT START ==========
+Input Configuration -> 111101
+Lut Configuration -> 1101100011011000
+FF Configuration -> 010
+Output Configuration -> 10
+A -> 1
+B -> 0
+C -> 0
+D -> 0
+x -> 0
+y -> 0
+========== PACKET PRINTOUT  END  ==========
+
+
+
+========== PACKET EVALUATION BEGIN  ==========
+[1;32mPASSED: [0mX (1st CLB) output is as expected -> 0
+[1;32mPASSED: [0mY (2nd CLB) output is as expected -> 0
 ========== PACKET EVALUATION END  ==========
 
 
