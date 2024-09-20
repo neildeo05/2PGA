@@ -13,15 +13,22 @@ VL_INLINE_OPT void VLUT___024root___ico_sequent__TOP__0(VLUT___024root* vlSelf) 
     VL_DEBUG_IF(VL_DBG_MSGF("+    VLUT___024root___ico_sequent__TOP__0\n"); );
     // Body
     if (vlSelf->c) {
-        vlSelf->LUT__DOT__sel2[0U] = vlSelf->mask[1U];
-        vlSelf->LUT__DOT__sel2[1U] = vlSelf->mask[3U];
-        vlSelf->LUT__DOT__sel2[2U] = vlSelf->mask[5U];
-        vlSelf->LUT__DOT__sel2[3U] = vlSelf->mask[7U];
+        vlSelf->LUT__DOT__sel2[0U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 1U));
+        vlSelf->LUT__DOT__sel2[1U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 3U));
+        vlSelf->LUT__DOT__sel2[2U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 5U));
+        vlSelf->LUT__DOT__sel2[3U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 7U));
     } else {
-        vlSelf->LUT__DOT__sel2[0U] = vlSelf->mask[0U];
-        vlSelf->LUT__DOT__sel2[1U] = vlSelf->mask[2U];
-        vlSelf->LUT__DOT__sel2[2U] = vlSelf->mask[4U];
-        vlSelf->LUT__DOT__sel2[3U] = vlSelf->mask[6U];
+        vlSelf->LUT__DOT__sel2[0U] = (1U & (IData)(vlSelf->mask));
+        vlSelf->LUT__DOT__sel2[1U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 2U));
+        vlSelf->LUT__DOT__sel2[2U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 4U));
+        vlSelf->LUT__DOT__sel2[3U] = (1U & ((IData)(vlSelf->mask) 
+                                            >> 6U));
     }
     vlSelf->out = ((1U & ((~ (IData)(vlSelf->a)) & 
                           (~ (IData)(vlSelf->b)))) ? 

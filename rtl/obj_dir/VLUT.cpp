@@ -11,11 +11,11 @@
 VLUT::VLUT(VerilatedContext* _vcontextp__, const char* _vcname__)
     : VerilatedModel{*_vcontextp__}
     , vlSymsp{new VLUT__Syms(contextp(), _vcname__, this)}
+    , mask{vlSymsp->TOP.mask}
     , a{vlSymsp->TOP.a}
     , b{vlSymsp->TOP.b}
     , c{vlSymsp->TOP.c}
     , out{vlSymsp->TOP.out}
-    , mask{vlSymsp->TOP.mask}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

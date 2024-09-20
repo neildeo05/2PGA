@@ -12,21 +12,22 @@ using namespace std;
 
 int main() {
   VLUT* to = new VLUT;
-  int cnt = 0;
   // hack
-  int lut_mask[] = {0,1,1,0,1,0,0,1};
-  for(int a = 0; a <= 1; a++) {
-    for(int b = 0; b <= 1; b++) {
-      for(int c = 0; c <= 1; c++) {
-        to->mask[cnt] = lut_mask[cnt];
-        cnt++;
-      }
-    }
-  }
+  // Mux:
+  // 000 -> 0: 0
+  // 001 -> 0: 1
+  // 010 -> 0: 2
+  // 011 -> 1: 3
+  // 100 -> 1: 4
+  // 101 -> 0: 5
+  // 110 -> 1: 6
+  // 111 -> 1: 7
+  int lut_mask = 0b11011000;
+  to->mask = lut_mask;
 
   to->a = 1;
   to->b = 1;
-  to->c = 1;
+  to->c = 0;
   to->eval();
-  printf("%d\n", to->out);
+  printf("%d\n",to->out);
 }

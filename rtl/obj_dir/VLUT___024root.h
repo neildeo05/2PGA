@@ -14,6 +14,7 @@ class alignas(VL_CACHE_LINE_BYTES) VLUT___024root final : public VerilatedModule
   public:
 
     // DESIGN SPECIFIC STATE
+    VL_IN8(mask,7,0);
     VL_IN8(a,0,0);
     VL_IN8(b,0,0);
     VL_IN8(c,0,0);
@@ -22,7 +23,6 @@ class alignas(VL_CACHE_LINE_BYTES) VLUT___024root final : public VerilatedModule
     IData/*31:0*/ __VstlIterCount;
     IData/*31:0*/ __VicoIterCount;
     IData/*31:0*/ __VactIterCount;
-    VL_IN8(mask[8],0,0);
     VlUnpacked<CData/*0:0*/, 4> LUT__DOT__sel2;
     VlUnpacked<CData/*0:0*/, 2> __Vm_traceActivity;
     VlTriggerVec<1> __VstlTriggered;

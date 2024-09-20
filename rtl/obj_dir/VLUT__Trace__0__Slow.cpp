@@ -11,21 +11,17 @@ VL_ATTR_COLD void VLUT___024root__trace_init_sub__TOP__0(VLUT___024root* vlSelf,
     // Init
     const int c = vlSymsp->__Vm_baseCode;
     // Body
-    for (int i = 0; i < 8; ++i) {
-        tracep->declBit(c+5+i*1,"mask", true,(i+0));
-    }
-    tracep->declBit(c+13,"a", false,-1);
-    tracep->declBit(c+14,"b", false,-1);
-    tracep->declBit(c+15,"c", false,-1);
-    tracep->declBit(c+16,"out", false,-1);
+    tracep->declBus(c+5,"mask", false,-1, 7,0);
+    tracep->declBit(c+6,"a", false,-1);
+    tracep->declBit(c+7,"b", false,-1);
+    tracep->declBit(c+8,"c", false,-1);
+    tracep->declBit(c+9,"out", false,-1);
     tracep->pushNamePrefix("LUT ");
-    for (int i = 0; i < 8; ++i) {
-        tracep->declBit(c+5+i*1,"mask", true,(i+0));
-    }
-    tracep->declBit(c+13,"a", false,-1);
-    tracep->declBit(c+14,"b", false,-1);
-    tracep->declBit(c+15,"c", false,-1);
-    tracep->declBit(c+16,"out", false,-1);
+    tracep->declBus(c+5,"mask", false,-1, 7,0);
+    tracep->declBit(c+6,"a", false,-1);
+    tracep->declBit(c+7,"b", false,-1);
+    tracep->declBit(c+8,"c", false,-1);
+    tracep->declBit(c+9,"out", false,-1);
     for (int i = 0; i < 4; ++i) {
         tracep->declBit(c+1+i*1,"sel2", true,(i+0));
     }
@@ -76,16 +72,9 @@ VL_ATTR_COLD void VLUT___024root__trace_full_sub_0(VLUT___024root* vlSelf, Veril
     bufp->fullBit(oldp+2,(vlSelf->LUT__DOT__sel2[1]));
     bufp->fullBit(oldp+3,(vlSelf->LUT__DOT__sel2[2]));
     bufp->fullBit(oldp+4,(vlSelf->LUT__DOT__sel2[3]));
-    bufp->fullBit(oldp+5,(vlSelf->mask[0]));
-    bufp->fullBit(oldp+6,(vlSelf->mask[1]));
-    bufp->fullBit(oldp+7,(vlSelf->mask[2]));
-    bufp->fullBit(oldp+8,(vlSelf->mask[3]));
-    bufp->fullBit(oldp+9,(vlSelf->mask[4]));
-    bufp->fullBit(oldp+10,(vlSelf->mask[5]));
-    bufp->fullBit(oldp+11,(vlSelf->mask[6]));
-    bufp->fullBit(oldp+12,(vlSelf->mask[7]));
-    bufp->fullBit(oldp+13,(vlSelf->a));
-    bufp->fullBit(oldp+14,(vlSelf->b));
-    bufp->fullBit(oldp+15,(vlSelf->c));
-    bufp->fullBit(oldp+16,(vlSelf->out));
+    bufp->fullCData(oldp+5,(vlSelf->mask),8);
+    bufp->fullBit(oldp+6,(vlSelf->a));
+    bufp->fullBit(oldp+7,(vlSelf->b));
+    bufp->fullBit(oldp+8,(vlSelf->c));
+    bufp->fullBit(oldp+9,(vlSelf->out));
 }

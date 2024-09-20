@@ -29,18 +29,11 @@ void VLUT___024root__trace_chg_sub_0(VLUT___024root* vlSelf, VerilatedVcd::Buffe
         bufp->chgBit(oldp+2,(vlSelf->LUT__DOT__sel2[2]));
         bufp->chgBit(oldp+3,(vlSelf->LUT__DOT__sel2[3]));
     }
-    bufp->chgBit(oldp+4,(vlSelf->mask[0]));
-    bufp->chgBit(oldp+5,(vlSelf->mask[1]));
-    bufp->chgBit(oldp+6,(vlSelf->mask[2]));
-    bufp->chgBit(oldp+7,(vlSelf->mask[3]));
-    bufp->chgBit(oldp+8,(vlSelf->mask[4]));
-    bufp->chgBit(oldp+9,(vlSelf->mask[5]));
-    bufp->chgBit(oldp+10,(vlSelf->mask[6]));
-    bufp->chgBit(oldp+11,(vlSelf->mask[7]));
-    bufp->chgBit(oldp+12,(vlSelf->a));
-    bufp->chgBit(oldp+13,(vlSelf->b));
-    bufp->chgBit(oldp+14,(vlSelf->c));
-    bufp->chgBit(oldp+15,(vlSelf->out));
+    bufp->chgCData(oldp+4,(vlSelf->mask),8);
+    bufp->chgBit(oldp+5,(vlSelf->a));
+    bufp->chgBit(oldp+6,(vlSelf->b));
+    bufp->chgBit(oldp+7,(vlSelf->c));
+    bufp->chgBit(oldp+8,(vlSelf->out));
 }
 
 void VLUT___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {

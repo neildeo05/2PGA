@@ -1,16 +1,12 @@
 // Implementation of a Look-up table in system verilog
 module LUT (
-    mask,
-    a,
-    b,
-    c,
-    out
+    input logic [7:0] mask,
+    // input  logic mask[8],
+    input logic a,
+    input logic b,
+    input logic c,
+    output logic out
 );
-  input logic mask[8];
-  input logic a;
-  input logic b;
-  input logic c;
-  output logic out;
   logic sel2[4];
   // Assuming that in the truth table, C is the alternating input (makes it easier when controlling truth tables)
   // Layer 1 muxes
