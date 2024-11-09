@@ -15,7 +15,10 @@ module CLB (
 
   logic inputs[4];
   always @(posedge clk) begin
-    inputs <= {A, B, C, D};
+    inputs[0] <= A;
+    inputs[1] <= B;
+    inputs[2] <= C;
+    inputs[3] <= D;
   end
   logic [2:0] ic_top = input_configuration_word[2:0];
   logic [2:0] ic_bot = input_configuration_word[5:3];
@@ -79,6 +82,9 @@ module CLB (
 
 
   // Flip Flop Configuration
+
+
+
   // Output Configuration
 
   ProgrammableMux p3 (

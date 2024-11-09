@@ -1,0 +1,251 @@
+$date
+	Sun Oct  6 14:39:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module CLB $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # C $end
+$var wire 1 $ D $end
+$var wire 1 % clk $end
+$var wire 3 & flip_flop_configuration_word [2:0] $end
+$var wire 6 ' input_configuration_word [5:0] $end
+$var wire 16 ( lut_configuration_word [15:0] $end
+$var wire 2 ) output_configuration_word [1:0] $end
+$var wire 1 * reset $end
+$var wire 1 + y $end
+$var wire 1 , x $end
+$var wire 3 - top_lut_inps [2:0] $end
+$var wire 1 . g $end
+$var wire 1 / f $end
+$var wire 3 0 bot_lut_inps [2:0] $end
+$var reg 8 1 bot_lut_mask [7:0] $end
+$var reg 3 2 ic_bot [2:0] $end
+$var reg 3 3 ic_top [2:0] $end
+$var reg 8 4 top_lut_mask [7:0] $end
+$scope begin gen_p1[0] $end
+$var parameter 2 5 _gv_i_1 $end
+$var parameter 32 6 i $end
+$scope module p1 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 9 sel $end
+$var wire 1 : out $end
+$var reg 1 ; sel_bit $end
+$upscope $end
+$upscope $end
+$scope begin gen_p1[1] $end
+$var parameter 2 < _gv_i_1 $end
+$var parameter 32 = i $end
+$scope module p1 $end
+$var wire 1 8 a $end
+$var wire 1 > b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 ? sel $end
+$var wire 1 @ out $end
+$var reg 1 A sel_bit $end
+$upscope $end
+$upscope $end
+$scope begin gen_p1[2] $end
+$var parameter 3 B _gv_i_1 $end
+$var parameter 32 C i $end
+$scope module p1 $end
+$var wire 1 > a $end
+$var wire 1 D b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 E sel $end
+$var wire 1 F out $end
+$var reg 1 G sel_bit $end
+$upscope $end
+$upscope $end
+$scope begin gen_p2[0] $end
+$var parameter 2 H _gv_i_1 $end
+$var parameter 32 I i $end
+$scope module p2 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 J sel $end
+$var wire 1 K out $end
+$var reg 1 L sel_bit $end
+$upscope $end
+$upscope $end
+$scope begin gen_p2[1] $end
+$var parameter 2 M _gv_i_1 $end
+$var parameter 32 N i $end
+$scope module p2 $end
+$var wire 1 8 a $end
+$var wire 1 > b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 O sel $end
+$var wire 1 P out $end
+$var reg 1 Q sel_bit $end
+$upscope $end
+$upscope $end
+$scope begin gen_p2[2] $end
+$var parameter 3 R _gv_i_1 $end
+$var parameter 32 S i $end
+$scope module p2 $end
+$var wire 1 > a $end
+$var wire 1 D b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 T sel $end
+$var wire 1 U out $end
+$var reg 1 V sel_bit $end
+$upscope $end
+$upscope $end
+$scope module bot_lut $end
+$var wire 1 W a $end
+$var wire 1 X b $end
+$var wire 1 Y c $end
+$var wire 8 Z mask [7:0] $end
+$var reg 1 . out $end
+$upscope $end
+$scope module p3 $end
+$var wire 1 . b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 [ sel $end
+$var wire 1 , out $end
+$var wire 1 / a $end
+$var reg 1 \ sel_bit $end
+$upscope $end
+$scope module p4 $end
+$var wire 1 . b $end
+$var wire 1 % clk $end
+$var wire 1 * reset $end
+$var wire 1 ] sel $end
+$var wire 1 + out $end
+$var wire 1 / a $end
+$var reg 1 ^ sel_bit $end
+$upscope $end
+$scope module top_lut $end
+$var wire 1 _ a $end
+$var wire 1 ` b $end
+$var wire 1 a c $end
+$var wire 8 b mask [7:0] $end
+$var reg 1 / out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 S
+b10 R
+b1 N
+b1 M
+b0 I
+b0 H
+b10 C
+b10 B
+b1 =
+b1 <
+b0 6
+b0 5
+$end
+#0
+$dumpvars
+b11011000 b
+xa
+x`
+x_
+0^
+0]
+1\
+1[
+b11011000 Z
+xY
+xX
+xW
+zV
+xU
+zT
+zQ
+xP
+zO
+zL
+xK
+zJ
+zG
+xF
+zE
+1D
+zA
+x@
+z?
+0>
+z;
+x:
+z9
+18
+07
+b11011000 4
+bz 3
+bz 2
+b11011000 1
+bx 0
+1/
+1.
+bx -
+1,
+1+
+z*
+b1 )
+b1101100011011000 (
+b10010 '
+bz &
+1%
+1$
+0#
+1"
+0!
+$end
+#2
+0%
+#3
+1%
+#4
+0%
+#5
+1%
+#6
+0%
+#7
+1%
+#8
+0%
+#9
+1%
+#10
+0%
+#11
+1%
+#12
+0%
+#13
+1%
+#14
+0%
+#15
+1%
+#16
+0%
+#17
+1%
+#18
+0%
+#19
+1%
+#21

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1728243550" />
+    <testcase name="test_clb" classname="test_clb" file="/home/neil/projects/2pga/rtl/tb/test_clb.py" lineno="13" time="0.002553701400756836" sim_time_ns="21.0" ratio_time="8223.35766968537" />
+  </testsuite>
+</testsuites>

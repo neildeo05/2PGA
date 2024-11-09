@@ -27,11 +27,12 @@ int main() {
 
   // LUT Input 1 -> 11011000
   // LUT Input 2 -> 11011000
+  // Currently the bitstream has 16 +  6 + 2 = 24 bits of configuration
   int lut =  0b1101100011011000;
 
 
 
-  int inp = 0b100100;
+  int inp = 0b100010;
   // Y gets G, X gets F
   int out = 0b01;
   tb->to->input_configuration_word = inp;

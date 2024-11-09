@@ -10,7 +10,7 @@ module LUT (
   logic sel2[4];
   // Assuming that in the truth table, C is the alternating input (makes it easier when controlling truth tables)
   // Layer 1 muxes
-  always_comb begin
+  always @(*) begin
     if (c) begin
       sel2[0] = mask[1];
       sel2[1] = mask[3];
@@ -25,7 +25,7 @@ module LUT (
   end
 
   // Layer 2 Muxes
-  always_comb begin
+  always @(*) begin
     if (~a & ~b) begin
       out = sel2[0];
     end else if (~a & b) begin

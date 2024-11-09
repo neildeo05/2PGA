@@ -7,7 +7,7 @@
 #include "tb.hpp"
 
 #define STARTUP_TIME 10
-#define MAX_TIME 50
+#define MAX_TIME 10000
 
 using namespace std;
 

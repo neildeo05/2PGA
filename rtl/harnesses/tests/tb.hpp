@@ -45,15 +45,22 @@ InputTx* create_input_tx() {
   if(rando) {
     InputTx* tx = new InputTx;
     // Set input tx based on random values
-    tx->input_configuration_word = rand() % 64;
+    // tx->input_configuration_word = rand() % 64;
     // MUX
+    // tx->lut_configuration_word = 0b1101100011011000;
+    // tx->flip_flop_configuration_word = rand() % 8;
+    // tx->output_configuration_word = rand() % 4;
+    tx->input_configuration_word = 0b10010;
     tx->lut_configuration_word = 0b1101100011011000;
-    tx->flip_flop_configuration_word = rand() % 8;
-    tx->output_configuration_word = rand() % 4;
-    tx->A = rand() % 2;
-    tx->B = rand() % 2;
-    tx->C = rand() % 2;
-    tx->D = rand() % 2;
+    tx->output_configuration_word = 0b01;
+    // tx->A = rand() % 2;
+    // tx->B = rand() % 2;
+    // tx->C = rand() % 2;
+    // tx->D = rand() % 2;
+    tx->A = 0;
+    tx->B = 1;
+    tx->C = 0;
+    tx->D = 1;
     return tx;
   }
   else return NULL;
