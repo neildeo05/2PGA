@@ -1,1 +1,4 @@
 legacy/
+obj_dir/
+*.fst
+*.vcd
