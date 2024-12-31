@@ -1,7 +1,0 @@
-# Benchmark "twoinp" written by ABC on Wed Aug 21 11:38:22 2024
-.model twoinp
-.inputs a b
-.outputs out
-.names a b out
-11 1
-.end

@@ -1,2 +1,0 @@
-read_verilog fulladder.v;
-write_blif fulladder.blif;

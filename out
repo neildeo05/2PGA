@@ -1,0 +1,485 @@
+/usr/local/bin/verilator -I./src -Wall -Wno-fatal --trace-fst --cc --exe --build ./tests/Test_CLB.cpp ./src/CLB.sv
+make[1]: Entering directory '/home/neil/projects/2pga/obj_dir'
+make[1]: Nothing to be done for 'default'.
+make[1]: Leaving directory '/home/neil/projects/2pga/obj_dir'
+obj_dir/VCLB
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 1
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 1
+[1;32mFAILED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 1
+[1;32mFAILED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 1
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 1
+Input 1 to second LUT is 0
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 1
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 1
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 1
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 1
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 1
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 1
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 1
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 1
+Input 1 to second LUT is 1
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 1
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 1
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 0
+Input 1 to first LUT is 0
+Input 2 to first LUT is 0
+
+Input 0 to second LUT is 0
+Input 1 to second LUT is 0
+Input 2 to second LUT is 1
+X comes from the second CLB -> Output X = 0
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 0
+Y comes from the first CLB -> Output Y = 0
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 0
+----------------------
+Input 0 to first LUT is 1
+Input 1 to first LUT is 1
+Input 2 to first LUT is 1
+
+Input 0 to second LUT is 1
+Input 1 to second LUT is 0
+Input 2 to second LUT is 0
+X comes from the second CLB -> Output X = 1
+[1;32mPASSED: [0mX (2nd CLB) output is as expected -> 1
+Y comes from the first CLB -> Output Y = 1
+[1;32mPASSED: [0mY (1st CLB) output is as expected -> 1
+----------------------
