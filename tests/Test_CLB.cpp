@@ -8,7 +8,7 @@
 #include "tb.hpp"
 #define DEBUG 1
 #define PROG_TIME 27
-#define TOT_TIME 50
+#define TOT_TIME 50000
 
 #define debug(...) if(DEBUG) printf(__VA_ARGS__);
 #define assertf(case, ...) assert(case); printf("\033[1;32mPASSED: \033[0m"); printf(__VA_ARGS__);
@@ -117,13 +117,6 @@ int main() {
           tb->to->C = (bool) (rand() % 2);
           tb->to->D = (bool) (rand() % 2);
         }
-    
-        // if(rand() % 4) {
-          // tb->to->A = (bool) (rand() % 2);
-          // tb->to->B = (bool) (rand() % 2);
-          // tb->to->C = (bool) (rand() % 2);
-          // tb->to->D = (bool) (rand() % 2);
-        // }
       }
       else {
         tb->to->cfg_in = bitstream[counter];

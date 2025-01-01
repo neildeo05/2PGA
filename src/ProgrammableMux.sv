@@ -7,12 +7,13 @@ module ProgrammableMux (
     output logic out
 );
 
-  logic sel_bit;
-  always @(posedge clk) begin
-    if (reset) sel_bit <= 0;
-    else sel_bit <= sel;
-  end
+  // don't need this because we are using a scanchain now
+  // logic sel_bit;
+  // always @(posedge clk) begin
+  //   if (reset) sel_bit <= 0;
+  //   else sel_bit <= sel;
+  // end
 
-  assign out = (sel_bit) ? b : a;
+  assign out = (sel) ? b : a;
 
 endmodule

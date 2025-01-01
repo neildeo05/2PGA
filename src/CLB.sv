@@ -88,7 +88,8 @@ module CLB (
         .c(bot_lut_inps[2]),
         .out(g)
     );
-    // Flip-flop configuration
+    // Flip-flop configuration (Doesn't include the INV, or EN signals (don't feel like there is a point to that for this tiny impl))
+
 
     // Output Configuration
     ProgrammableMux p3 (
