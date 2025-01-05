@@ -30,13 +30,13 @@ public:
   }
   virtual void tick() {
     cnt++;
-    to->clk = 0;
+    to->cfg_clk = 0;
     to->eval();
     trace->dump((uint64_t)(10*cnt-2));
-    to->clk = 1;
+    to->cfg_clk = 1;
     to->eval();
     trace->dump((uint64_t)(10*cnt));
-    to->clk = 0;
+    to->cfg_clk = 0;
     to->eval();
     trace->dump((uint64_t)(10*cnt+5));
     trace->flush();

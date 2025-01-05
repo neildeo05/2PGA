@@ -1,9 +1,9 @@
-module ProgrammableMux (
-    input  logic clk,
-    input  logic reset,
-    input  logic sel,
+module Mux3 (
+    input  logic sel1,
+    input  logic sel2,
     input  logic a,
     input  logic b,
+    input  logic c,
     output logic out
 );
 
@@ -14,6 +14,13 @@ module ProgrammableMux (
   //   else sel_bit <= sel;
   // end
 
-  assign out = (sel) ? b : a;
+  always_comb begin
+    case({sel2, sel1})
+      2'b00: out = a;
+      2'b01: out = b;
+      2'b10: out = c;
+      default: out = 1'bz;
+    endcase
+  end
 
 endmodule
