@@ -7,8 +7,9 @@
 #include "VCLB.h"
 #include "tb.hpp"
 #define DEBUG 1
-#define PROG_TIME 37
-#define TOT_TIME 57
+#define CONFIG_BITS 37
+#define PROG_TIME 100
+#define TOT_TIME 200
 
 #define debug(...) if(DEBUG) printf(__VA_ARGS__);
 // #define assertf(case, ...) \
@@ -116,24 +117,37 @@ int main() {
   bitstream.insert(bitstream.end(), icw.begin(), icw.end());
   int counter = 0;
   while(tb->should_tick()) {
-      if(counter >= PROG_TIME) {
-        tb->to->cfg_en = 0;
-        if(rand() % 3) {
-          tb->to->A = (bool) (rand() % 2);
-          tb->to->B = (bool) (rand() % 2);
-          tb->to->C = (bool) (rand() % 2);
-          tb->to->D = (bool) (rand() % 2);
-        }
-      }
-      else {
-        tb->to->cfg_in = bitstream[counter];
-      }
-      tb->tick();
-      // if(counter >= PROG_TIME) mux_check(tb->to->A, tb->to->B, tb->to->C, tb->to->D, tb->to->x, tb->to->y);
-      if(counter >= PROG_TIME) {
-        mux_check(tb->to->A, tb->to->B, tb->to->C, tb->to->D, tb->to->x, tb->to->y, 0);
-      }
-      counter += 1;
+    if(counter >= CONFIG_BITS) tb->to->cfg_en = 0;
+    // update bits on falling_edge
+    if(tb->cfg_clk.falling_edge()) {
+      if(counter < bitstream.size()) tb->to->cfg_in = bitstream[counter];
+      counter++;
+    }
+    tb->tick();
   }
+  //     if(counter >= PROG_TIME) {
+  //       tb->to->cfg_en = 0;
+  //       if(rand() % 3) {
+  //         tb->to->A = (bool) (rand() % 2);
+  //         tb->to->B = (bool) (rand() % 2);
+  //         tb->to->C = (bool) (rand() % 2);
+  //         tb->to->D = (bool) (rand() % 2);
+  //       }
+  //     }
+  //     else {
+  //       if(counter < bitstream.size()) {
+  //         tb->to->cfg_in = bitstream[counter];
+  //         printf("%d", bitstream[counter]);
+  //       }
+  //       else tb->to->cfg_en = 0;
+  //     }
+  //     // tb->tick_old();
+  //     tb->tick();
+  //     // if(counter >= PROG_TIME) {
+  //     //   mux_check(tb->to->A, tb->to->B, tb->to->C, tb->to->D, tb->to->x, tb->to->y, 0);
+  //     // }
+  //     counter += 1;
+  // }
+  printf("\n");
   tb->close_trace();
 }

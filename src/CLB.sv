@@ -1,6 +1,5 @@
 // Combinational Logic Block (with config scan chain)
 module CLB (
-    // input logic cfg_clk,
     input logic cfg_clk,
     input logic cfg_en,
     input logic cfg_in,
@@ -9,7 +8,7 @@ module CLB (
     input logic B,
     input logic C,
     input logic D,
-    input logic K_clk,
+    input logic clb_clk,
     output wire x,
     output wire y
 );
@@ -108,7 +107,7 @@ module CLB (
       .sel2(flip_flop_configuration_word[3]),
       .a(g),
       .b(inputs[2]),
-      .c(K_clk),
+      .c(clb_clk),
       .out(FF_K)
     );
 
